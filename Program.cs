@@ -1,26 +1,36 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace responsi
+namespace UTSPemrog
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			ResponsiPemrograman4369 kry1 = new ResponsiPemrograman4369();
+			Karyawan kry1 = new Karyawan();
 
-			kry1.NIK = "18112265";
-			kry1.Nama = "Fakhrian";
-			kry1.GajiBulanan = "3000000";
+			kry1.NIK = "21.11.4369";
+			kry1.Nama = "Aldi Putra MU";
+			kry1.GajiBulanan = 3000000;
 
-			karyawan kry2 = new Karyawan();
+			Karyawan kry2 = new Karyawan();
 
-			kry2.NIK = "18112266";
-			kry2.Nama = "Ikhwaludin";
-			kry2.GajiBulanan = "2000000";
+			kry2.NIK = "21.11.111";
+			kry2.Nama = "paijo";
+			kry2.GajiBulanan = 2000000;
+
+			if (kry1.GajiBulanan < 0)
+			{
+				kry1.GajiBulanan = 0;
+			}
+
+			if (kry2.GajiBulanan < 0)
+			{
+				kry2.GajiBulanan = 0;
+			}
 
 			Console.WriteLine("No.\tNIK/Nama\t\tGaji Bulanan");
 			Console.WriteLine("-----------------------------");
