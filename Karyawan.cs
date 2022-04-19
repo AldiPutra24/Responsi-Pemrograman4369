@@ -19,9 +19,7 @@ namespace UTSPemrog
 			}
 			else
 			{
-				NIK = Nik ;
-				Nama = nama ;
-				GajiBulanan = gajibulanan;
+				Console.WriteLine("blok");
 			}
 		}
 		public string NIK {get ; set ;}
