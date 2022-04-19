@@ -1,0 +1,5 @@
+D:\Aldi\responsi\obj\Debug\net6.0\UTSpemrog.csproj.AssemblyReference.cache
+D:\Aldi\responsi\obj\Debug\net6.0\UTSpemrog.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aldi\responsi\obj\Debug\net6.0\UTSpemrog.AssemblyInfoInputs.cache
+D:\Aldi\responsi\obj\Debug\net6.0\UTSpemrog.AssemblyInfo.cs
+D:\Aldi\responsi\obj\Debug\net6.0\UTSpemrog.csproj.CoreCompileInputs.cache
